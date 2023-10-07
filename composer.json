@@ -1,0 +1,26 @@
+{
+    "name": "amartyagi/combination-generate",
+    "description": "Generate combinations of items in multiple arrays",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AmarTyagi\\CombinationGenerate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amar Tyagi",
+            "email": "amartyagi4all@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AmarTyagi\\CombinationGenerate\\Providers\\CombinationServiceProvider"
+            ]
+        }
+    }
+}
